@@ -13,8 +13,3 @@ address:Verve Suite KL South
 address3:Old Klang Road
 address2:58200
 extra_test_field:test value
-
-
-# Explaination:
-
-http://127.0.0.1:8000/
