@@ -9,5 +9,5 @@ LEFT JOIN drivers
 ON bookings.driver_id = drivers.driver_id
 WHERE drivers.email LIKE '%fvtaxi%' OR drivers.email LIKE '%fvdrive%'
 GROUP BY drivers.driver_id
-HAVING number_of_completed_rides > 0 AND number_of_unique_passenger < 5
+HAVING number_of_completed_rides >10 AND number_of_unique_passenger < 5
 ORDER BY number_of_completed_rides DESC
